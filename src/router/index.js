@@ -6,7 +6,7 @@ import { clientRoutes } from './clientroutes'
 import { techRoutes } from './techroutes'
 
 const router = createRouter({
-	history: createWebHistory(import.meta.env.BASE_URL),
+	history: createWebHistory('/agenda'),
 	routes: [
 		{
 			path: '/',

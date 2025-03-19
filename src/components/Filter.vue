@@ -40,7 +40,6 @@
 <script setup>
 import { FetchAPI } from '@/assets/utils/FetchAPI'
 import { InitializeVars } from '@/assets/utils/InitializeVars'
-import { isWithinInterval, parseISO } from 'date-fns'
 import { ref } from 'vue'
 
 const { order, clientName, token } = InitializeVars()
